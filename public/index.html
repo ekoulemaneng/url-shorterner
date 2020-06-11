@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ekoulé Maneng Charly Karl">
+        <meta name="description" content="A request header parser microservice">
+        <title>Request Header Parser Microservice</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Shortener</h1>
+        <p>an url shortener microservice</p>
+        <hr>
+        <form action="/api/shorturl/new" method="POST">
+            <label for="url">Url to be shortened:</label>
+            <input type="text" name="url" placeholder="http(s)://www.example.com(/more/routes)">
+            <button type="submit">Shorten</button>
+        </form>
+    </body>
+</html>
